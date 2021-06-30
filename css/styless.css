@@ -1,0 +1,234 @@
+.Page1{     
+    font-family: 'Rubik', sans-serif;                            /*For background in front page*/
+    background-color: white;
+    margin: 0;
+}
+
+/*.div_1{    
+    width: 98.5%; 
+    height:8%;                   background color for division present at top and bottom
+    background-color: #DA0037;
+    padding-left: 20px;
+    display: block;
+}*/
+
+.pos_div1{
+    position: fixed;   
+}
+
+/* .div_color:hover{                        background color for division present at top and bottom
+    background-color: #DA0037;
+} */
+
+.div_2{                                      /*Margin for keeping divison from upper tab of home contacts etc */
+    margin-top: 5%;
+}
+
+.div_3{                                      /*to allign the middle body in center of front page*/ 
+    text-align: center;
+    position: relative;
+    
+}
+
+.top_cloud{
+    position: absolute;
+    width:15%;
+    right:22%;
+    top:-14%;
+}
+
+.bottom_cloud{
+    position: absolute;
+    width:15%;
+    left: 22%;  
+}
+
+.text_top{                                          /*font style for im leena*/
+    font-family: 'Meie Script', cursive;
+    position: absolute;
+    right: 38%;
+    top:5%;
+    margin-bottom: 0px;
+    font-size:500%;   /*100percent is 16px so 80px is 80/16 x 100 = 500percent *//*by using percentage we make it dynamic*/
+    
+}
+
+.text_bot{
+    padding-top: 10%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+}
+
+/*.top-container{
+    background-color: rgb(242, 188, 240);
+}*/
+
+.firstimg{
+    margin: auto;
+    width: 100%;
+}
+
+.hr_dots{                                /*dots on screen*/
+    border-style: none;
+    border-top-style: dotted;
+    border-color:lightgrey ;
+    background-color: white;
+    border-width: 10px;
+    width: 8%;
+    margin: 50px auto;
+}
+
+.myimage{
+    border-radius: 100%;
+    width: 15%;
+    height:15% ;
+}
+
+.skill{                      /*skill image*/
+    width: 25%;
+    height:25% ;
+    float: left;
+    padding-right:10% ;
+}
+
+.food{                       /*food image*/
+    width: 25%;
+    height:25% ;
+    float: right;
+    padding-left:10% ;
+}
+
+.for-clear{
+    color: #40514E;
+    margin-bottom: 0px;
+    font-weight:900;
+    /*clear: right;*/
+}
+
+.skill-row{
+    width: 50%;
+    margin: 80px auto;             /*By setting margin as auto we make elements in center*/
+    text-align: left;
+    line-height:200%;
+}
+
+.contact-me-head{
+    margin: 2%;
+}
+
+.contact-me{
+    width: 50%;
+    margin: auto;
+    line-height: 200%;
+}
+
+.middle-container{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contact-button {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFE0F3;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #DA0030;
+    border: solid #DA0037 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 15px;
+}
+ 
+.contact-button:hover {
+    border: solid #000000 1px;
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #000204);
+    background-image: -moz-linear-gradient(top, #000000, #000204);
+    background-image: -ms-linear-gradient(top, #000000, #000204);
+    background-image: -o-linear-gradient(top, #000000, #000204);
+    background-image: -webkit-gradient(to bottom, #000000, #000204);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.headall{      
+    text-decoration: none;                          /*Used in upper division of home profile contact details*/
+    color: rgb(255, 224, 243);   
+}
+
+.headall:hover{
+    color:black;
+}
+
+.copyright{
+    font-size: 0.75rem;
+    margin-bottom: 0px;
+}
+
+.bottom-container{
+    text-align: center;
+    color: rgb(255, 224, 243); 
+    background-color: #DA0037;               /*division for bottom of every page*/
+    margin: auto;
+    padding: 20px 0;
+}
+
+
+.dotbor{                                /*dots on screen*/
+    border-style: none;
+    border-top-style: dotted;
+    border-color:lightgrey ;
+    background-color: #FFE5E2;
+    border-width: 10px;
+    width: 8%;
+}
+
+.div1_span{                /*span present in all pages in div1 uppermost division */
+    margin-top:1%;
+    display: inline-block;
+    height: 50px;
+    width: 180px;
+}
+
+
+.Other_body{
+    font-family: 'Rubik', sans-serif;
+    background-image: url("https://cdn.wallpapersafari.com/19/12/CRz253.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    margin: 0;
+}
+
+
+form {
+    box-align: center;
+    border:#D99879;
+    border-width: 5px;
+    border-style: double;
+    
+    text-align: center;
+
+    height: 450px;
+}
+
+hr{
+    background-color:darksalmon;
+    border-style: none;
+    height: 2px;
+    margin: 1px;
+}
+
+h1,h2,h3{
+    color: #DA0037;
+    margin: 0;
+}
+
